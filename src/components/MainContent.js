@@ -8,7 +8,7 @@ function MainContent() {
           <div className="col-sm-6">
             <h1 style={{ position: 'relative', top: '1px', left: '400px'}}>Elevate <span className="text-primary" style={{ color: 'blue' }}>Real Estate Success</span> with <br/> Osumare's Digital Expertise</h1>
             <p style={{ position: 'relative', top: '1px', left: '400px'}}>Tailored Solutions for Thriving in the Digital Real Estate Landscape</p>
-            <button className="btn-lg btn-primary rounded-pill"style={{ position: 'relative', top: '1px', left: '570px' , backgroundColor: 'skyblue'}}>Get Started</button>
+            <button className="btn-lg btn-primary rounded-pill"style={{ position: 'relative', top: '1px', left: '570px' , backgroundColor: 'skyblue', color: 'white' , padding: '8px 25px'}}>Get Started</button>
           </div>
         </div>
       </div>
@@ -36,7 +36,7 @@ function MainContent() {
             <br/>
             <p className="fs-5"style={{ position: 'relative', top: '1px', left: '175px'}}>At Osumare, we understand that the real estate landscape demands a digital presence that aligns with the intricacies of property marketing.<br /> Our range of specialized services is meticulously designed to catapult your brand's success in the ever-evolving digital property market.</p>
             <div style={{ marginBottom: '50px' }}></div>
-            <button className="btn btn-primary rounded-pill" style={{ position: 'relative', top: '1px', left: '600px',backgroundColor: 'skyblue'}}>Get Started</button>
+            <button className="btn-lg btn-primary rounded-pill"style={{ position: 'relative', top: '1px', left: '570px' , backgroundColor: 'skyblue', color: 'white' , padding: '8px 25px'}}>Get Started</button>
           </div>
         </div>
       </div>
@@ -105,7 +105,7 @@ function MainContent() {
       <div className="row justify-content-center">
       <div style={{ marginBottom: '50px' }}></div>
         <div className="col-md-3 text-center">
-          <button className="btn btn-primary rounded-pill w-50 p-3" style={{ position: 'relative', top: '1px', left: '600px'}}>Get Started</button>
+        <button className="btn-lg btn-primary rounded-pill"style={{ position: 'relative', top: '1px', left: '570px' , backgroundColor: 'skyblue', color: 'white' , padding: '8px 25px'}}>Get Started</button>
         </div>
       </div>
     </div>
@@ -173,7 +173,7 @@ function MainContent() {
             <br />
             <p style={{ position: 'relative', top: '1px', left: '-150px',fontSize: '20px' }}>In the dynamic realm of real estate, the journey from a property inquiry to a successful conversion demands.<br />a well-crafted approach. At Osumare, we specialize in guiding potential buyers through this journey.<br /> seamlessly, maximizing inquiries-turned-conversions with expert strategies.</p>
             <div style={{ marginBottom: '50px' }}></div>
-            <button className="btn btn-primary rounded-pill" style={{ position: 'relative', top: '1px', left: '250px',backgroundColor: 'skyblue'}}>Get Started</button>
+            <button className="btn-lg btn-primary rounded-pill"style={{ position: 'relative', top: '1px', left: '210px' , backgroundColor: 'skyblue', color: 'white' , padding: '8px 25px'}}>Get Started</button>
           </div>
         </div>
 
@@ -250,7 +250,7 @@ function MainContent() {
             <h2 style={{ position: 'relative', top: '1px', left: '500px'}}>Your Peace of Mind</h2>
             <div style={{ marginBottom: '50px' }}></div>
             <p className="fs-5"   style={{ position: 'relative', top: '1px', left: '350px'}}  >Through our conversion-focused strategies, we ensure that property seekers are not just.<br /> visitors, but engaged prospects ready to make their next move in the real estate market.</p>
-            <button className="btn btn-primary rounded-pill p-3" style={{ position: 'relative', top: '1px', left: '550px',backgroundColor: 'skyblue'}}>Get Started</button>
+            <button className="btn-lg btn-primary rounded-pill"style={{ position: 'relative', top: '1px', left: '570px' , backgroundColor: 'skyblue', color: 'white' , padding: '8px 25px'}}>Get Started</button>
           </div>
         </div>
       </div>
@@ -290,23 +290,30 @@ function MainContent() {
           <div className="col-sm-6">
             <h2 style={{ position: 'relative', top: '1px', left: '500px'}}>Frequently Asked Questions</h2>
             <p className="fs-5"><b>Pinpoint your audience with precision, ensuring your marketing efforts reach those most likely to engage with your brand.</b></p>
-            <div className="accordion mt-4" id="faqAccordion">
+            <div style={{ position: 'relative', top: '1px', left: '480px'}} className="accordion mt-4" id="faqAccordion">
               <div className="accordion-item">
                 <h2 className="accordion-header" id="faqHeadingOne">
                   <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseOne" aria-expanded="true" aria-controls="faqCollapseOne">
-                    2. How does Osumare measure campaign success?
+                    1. How does Osumare measure campaign success?
                   </button>
                 </h2>
               </div>
               <div className="accordion-item">
                 <h2 className="accordion-header" id="faqHeadingTwo">
                   <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseTwo" aria-expanded="false" aria-controls="faqCollapseTwo">
+                    2. How does Osumare measure campaign success?
+                  </button>
+                </h2>
+                <div className="accordion-item">
+                <h2 className="accordion-header" id="faqHeadingOne">
+                  <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseOne" aria-expanded="true" aria-controls="faqCollapseOne">
                     3. How does Osumare measure campaign success?
                   </button>
                 </h2>
+              </div>
                 <div id="faqCollapseTwo" className="accordion-collapse collapse" aria-labelledby="faqHeadingTwo" data-bs-parent="#faqAccordion">
                   <div className="accordion-body">
-                    <p  style={{ position: 'relative', top: '1px', left: '250px'}}>We believe in measurable results. Our data-driven approach means that every campaign's performance is.<br /> tracked, analyzed, and refined for optimal outcomes. We provide regular reports that detail key metrics, giving you clear insights.<br /> into how our strategies are driving growth for your brand.</p>
+                    <p  style={{ position: 'relative', top: '1px', left: '-150px'}}>We believe in measurable results. Our data-driven approach means that every campaign's performance is.<br /> tracked, analyzed, and refined for optimal outcomes. We provide regular reports that detail key metrics, giving you clear insights.<br /> into how our strategies are driving growth for your brand.</p>
                   </div>
                 </div>
               </div>
@@ -350,7 +357,7 @@ function MainContent() {
         </div>
         <div className="d-grid gap-2 col-3 mx-auto mt-2">
         <div style={{ marginBottom: '50px' }}></div>
-          <button className="btn btn-primary rounded-pill p-2" type="button"  style={{ position: 'relative', top: '1px', left: '600px',backgroundColor: 'skyblue'}}>Get Started</button>
+        <button className="btn-lg btn-primary rounded-pill"style={{ position: 'relative', top: '1px', left: '570px' , backgroundColor: 'skyblue', color: 'white' , padding: '8px 25px'}}>Get Started</button>
         </div>
       </div>
     </div>
